@@ -13,7 +13,7 @@ tieScore = 0
 possibleHands = ["R","P","S"]
 
 def checkForWinner(playerHand, computerHand):
-    """"""
+    """this function simply accept both users and cpu input"""
     if (playerHand == "R" and computerHand == "P"):
         print("Sorry you lost :(")
         return "Cpu " 
